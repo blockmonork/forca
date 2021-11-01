@@ -1,0 +1,105 @@
+html, body { 
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family:Courier;
+}
+h1, h3 {
+	font-weight:lighter;
+	color:white;
+	text-align:center;
+	text-shadow:1px 1px 1px black;
+}
+h1 {
+	font-size:37px;
+}
+hr {
+	border-top:1px dotted silver;
+	border-left:0;
+	border-right:0;
+	border-bottom:0;
+}
+.contador {
+	position:absolute;
+	bottom:0;
+	left:0;
+	font-family:courier;
+	font-size:13pt;
+	color:white;
+	text-align:center;
+	text-shadow:1px 1px 1px #000;
+	background:silver;
+	border-top:1px dotted gray;
+	width:100%;
+	padding:5px 0 5px 0;
+}
+a:hover {
+	text-decoration:none;
+}
+#site {
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+#conteudo {
+	position:relative;
+	top:15px;
+	width:500px; 
+	margin:0 auto;
+}
+/* GAME */
+#gameMenu {
+	color:white;
+	background:black;
+	font-size:0.8em;
+	padding:3px;
+	border:1px solid black;
+}
+#gameMenu a {
+	text-decoration:none;
+	color:white;
+	background:black;
+	padding:3px;
+}
+#gameMenu a:hover {
+	color:black;
+	background:white;
+}
+#imgContainer {
+	width:300px;
+	height:300px;
+	margin:0 auto;
+}
+#letras, #input {
+	height:50px;
+	display:block;
+}
+.letra {
+	width:25px;
+	height:25px;
+	display:inline-table;
+	margin:0 2px 0 2px;
+	border-bottom:1px solid red;
+	font-size:1.2em;
+}
+input, button {
+	display:inline;
+}
+input {
+	width:20px;
+	border:1px solid silver;
+}
+button {
+	border:1px solid silver;
+	background:white;
+	color:gray;
+}
+button:focus {
+	background:green;
+	color:white;
+}
